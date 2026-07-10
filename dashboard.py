@@ -86,14 +86,23 @@ st.markdown(
 
         /* Kartu metric - putih bersih */
         div[data-testid="stMetric"] {{
-             background: rgba(255,255,255,0.12);
-             backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-             border: 1px solid rgba(255,255,255,0.2);
-             border-radius: 16px;
-             padding: 18px;
-             color: white;
-             box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+            background: linear-gradient(
+    135deg,
+    #E6002D 0%,
+    #F43F5E 55%,
+    #FF7AA2 100%
+);
+
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+
+border: 1px solid rgba(255,255,255,0.15);
+border-radius: 16px;
+padding: 18px;
+
+color: white;
+
+box-shadow: 0 10px 30px rgba(230, 0, 45, 0.35);
         }}
         div[data-testid="stMetricValue"] {{
             color: {TSEL_RED_DARK};
