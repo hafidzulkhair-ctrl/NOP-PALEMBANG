@@ -40,16 +40,14 @@ TSEL_RED_DARK = "#B0001F"
 TSEL_ORANGE = "#FF7A1A"
 TSEL_YELLOW = "#FFC63C"
 
-PAGE_BG_1 = "#001233"      # Biru dongker
-PAGE_BG_2 = "#003566"      # Navy
-
-NAVY_CARD = "#0F172A"
-NAVY_CARD_2 = "#1E3A8A"
-NAVY_BORDER = "rgba(59,130,246,0.35)"
-
-TEXT_LIGHT = "#F8FAFC"
-TEXT_MUTED = "#CBD5E1"
-TEXT_MUTED_ON_LIGHT = "#475569"
+PAGE_BG_1 = "#F4F6FC"
+PAGE_BG_2 = "#EBEFF8"
+NAVY_CARD = "#111B36"
+NAVY_CARD_2 = "#16223F"
+NAVY_BORDER = "rgba(228,0,43,0.28)"
+TEXT_LIGHT = "#F2F4F8"
+TEXT_MUTED = "#9AA4BD"
+TEXT_MUTED_ON_LIGHT = "#5B6478"
 
 st.set_page_config(
     page_title="AVA Analysis Dashboard - TSEL NOP Palembang",
@@ -86,23 +84,11 @@ st.markdown(
 
         /* Kartu metric - putih bersih */
         div[data-testid="stMetric"] {{
-            background: linear-gradient(
-    135deg,
-    #E6002D 0%,
-    #F43F5E 55%,
-    #FF7AA2 100%
-);
-
-backdrop-filter: blur(12px);
--webkit-backdrop-filter: blur(12px);
-
-border: 1px solid rgba(255,255,255,0.15);
-border-radius: 16px;
-padding: 18px;
-
-color: white;
-
-box-shadow: 0 10px 30px rgba(230, 0, 45, 0.35);
+            background: #FFFFFF;
+            border: 1px solid #E7E5F0;
+            border-radius: 14px;
+            padding: 14px 16px 10px 16px;
+            box-shadow: 0 4px 14px rgba(20,30,60,0.06);
         }}
         div[data-testid="stMetricValue"] {{
             color: {TSEL_RED_DARK};
