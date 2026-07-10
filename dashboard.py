@@ -84,11 +84,14 @@ st.markdown(
 
         /* Kartu metric - putih bersih */
         div[data-testid="stMetric"] {{
-            background: #FFFFFF;
-            border: 1px solid #E7E5F0;
-            border-radius: 14px;
-            padding: 14px 16px 10px 16px;
-            box-shadow: 0 4px 14px rgba(20,30,60,0.06);
+             background: rgba(255,255,255,0.12);
+             backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+             border: 1px solid rgba(255,255,255,0.2);
+             border-radius: 16px;
+             padding: 18px;
+             color: white;
+             box-shadow: 0 8px 24px rgba(0,0,0,0.25);
         }}
         div[data-testid="stMetricValue"] {{
             color: {TSEL_RED_DARK};
