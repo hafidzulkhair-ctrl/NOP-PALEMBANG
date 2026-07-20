@@ -32,7 +32,7 @@ from nop_logo_asset import NOP_LOGO_B64  # logo NOP Palembang, disimpan sebagai 
 # ==================================================
 # KONFIGURASI
 # ==================================================
-EXCEL_FILE = os.environ.get("EXCEL_FILE", "SCRIPT_AVA.xlsx")
+EXCEL_FILE = os.environ.get("EXCEL_FILE", "SCRIPT AVA.xlsx")
 EXCEL_SHEET_NAME = os.environ.get("EXCEL_SHEET_NAME", 0)
 
 TSEL_RED = "#E4002B"
